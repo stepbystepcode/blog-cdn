@@ -63,7 +63,7 @@ var botui = new BotUI('my-botui-app');botui.message
 			botui.message
 				.add({
 					delay: 1500,
-					content: "目前就读于天津市塘沽第一中学",
+					content: "目前就读于山西大学自动化专业",
 				})
 				.then(function () {
 					botui.message
@@ -81,7 +81,7 @@ var botui = new BotUI('my-botui-app');botui.message
 									botui.message
 										.add({
 											delay: 1500,
-											content: "略懂HTML/CSS/JavaScript/PHP/Python/c++/vue",
+											content: "略懂前端/PHP/Python/c++/vue",
 										})
 										.then(function () {
 											botui.message
@@ -142,13 +142,13 @@ var botui = new BotUI('my-botui-app');botui.message
 			botui.message
 				.add({
 					delay: 1e3,
-					content: "因为还有"+day+"天就要高考了 ",
+					content: "因为有的时候缺乏灵感",
 				})
 				.then(function () {
 					botui.message
 						.add({
 							delay: 1100,
-							content: "高考过后我会定期更新的",
+							content: "如果你有什么需要或者更新建议的话欢迎联系我",
 						})
 						.then(function () {
 							botui.action
@@ -172,7 +172,7 @@ var botui = new BotUI('my-botui-app');botui.message
 				.add({
 					delay: 1e3,
 					content:
-						"emmmm，一看你就知道了=.= 本来想要codingboy.com的，但随便玩玩，29元/月真不值得。。",
+						"emmmm，一看你就知道了=.= 本来想要stepbystep.com的，但随便玩玩，29元/月真不值得。。",
 				})
 				.then(function () {
 					botui.message.add({
